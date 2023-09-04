@@ -7,7 +7,7 @@ export default defineConfig({
   contracts: [],
   plugins: [
     foundry({
-      project: './contracts',
+      project: '../morsera-contracts',
     }),
   ]
 })
